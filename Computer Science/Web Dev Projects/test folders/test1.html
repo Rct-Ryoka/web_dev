@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>c2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        .container{
+            background: lightgray;
+            display:flex;
+            
+            align-items:flex-end;
+            /*
+            JUSTIFYING FLEX ITEMS
+            justify-content: flex-start;
+            justify-content: flex-end;
+            justify-content: center;
+            justify-content: space-between;
+            */
+
+            /*
+            ALIGINING ITEMS
+            
+            align-items:flex-start;
+            align-items:flex-end;
+            align-items:center;
+
+            */
+        }
+
+        .container > div{
+            background: red;
+            margin: 10px;
+            padding: 50px;
+        }
+
+        .container-2{
+            background: gold;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column-reverse;
+        }
+
+        .container-2 > div{
+            border: 1px solid black;
+        }
+        .box-4{
+            flex:1;
+        }
+
+        .box-5{
+            flex:1;
+        }
+
+        .box-6{
+            flex:1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box-1">1</div>
+        <div class="box-2">2</div>
+        <div class="box-3">3</div>
+    </div>
+
+    <div class="container-2">
+        <div class="box-4">
+            <p>Lorem Ipsum1</p>
+        </div>
+        <div class="box-5">
+             <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+        </div>
+        <div class="box-6">
+            <p>Lorem Ipsum3</p>
+        </div>
+</body>
+</html>

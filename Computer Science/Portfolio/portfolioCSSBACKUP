@@ -1,0 +1,73 @@
+
+body{
+
+  background-color: #696969;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.container {
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  background-color:white;
+  top: 0;
+}
+
+nav {
+  float:right;
+  position: fixed;
+  margin-left: 700px;
+}
+
+header{
+  background-color:#FFF9FB;a
+  padding-bottom: 10  px;
+}
+
+/*CLEAR FIX*/
+header::after{
+  content:'';
+  display: table;
+  clear: both;
+
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+nav li {
+  display:inline-block;
+  margin-left: px;
+  padding-top: 0px;
+}
+
+nav a {
+  display: block;
+  color: 	#353839;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+a:hover{
+
+color:white;
+background-color: black;
+
+}
+.navigationBrand{
+  color: 	#353839;
+  text-decoration: none;
+  float: left;
+  padding : 30px;
+  position: fixed;
+  text-transform: uppercase;
+}
+
+.navigationBG{
+ background-color:#FFF;
+}

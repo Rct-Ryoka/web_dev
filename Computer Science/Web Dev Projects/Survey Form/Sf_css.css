@@ -1,0 +1,46 @@
+body {
+    background: #f2f2f2;
+    font-family: Montserrat;
+    font-size: 15px;
+}
+#survey-form{
+   
+    display: flex;
+    justify-content:center;
+}
+.flex-outer li
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+/*border: 1px solid red;*/
+}
+
+.flex-outer{
+    background-color: moccasin;
+    padding:10px;
+    border-radius: 2%;
+}
+
+li >*{
+    flex : 1 1 270px;
+    
+}
+
+li{
+    margin-top: 15px;   
+}
+p{
+  margin:0;
+}
+
+#title , #description {
+  text-align: center;
+  margin:0;
+}
+
+input , select{
+    padding:5px;
+}
+
+

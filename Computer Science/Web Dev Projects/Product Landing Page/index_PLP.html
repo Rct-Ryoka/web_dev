@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main_PLP.css"/>
+    <script src="main.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="company-logo">
+            <img id="header-image" src="img/company_logo.png" alt="muscle fitness logo">
+        </div>
+        <nav id="nav-bar">      
+            <ul class="link-container">
+                <li class="nav-link"><a href="#features">Features</a></li>
+                <li class="nav-link"><a href="#nutritional-plan">Diet Plans</a></li>
+                <li class="nav-link"><a href="#workout-plan">Workout Plans</a></li>
+            </ul>                   
+        </nav>
+    </header>
+
+    <main>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h1 id="email-text">Always get Updated to our Newsletter!</h1>
+            <input type="email" name="email" id="email" placeholder="Enter email address" required>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+    <div id="features">
+        <div class="video-container">
+            <h2>with the best and the well known trainers in the industry!</h2>
+            <iframe id="video" width="753" height="380" src="https://www.youtube.com/embed/Umu4cxTPaC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>   </iframe>
+        </div>
+
+        <div class="prime-features">
+            <div class="container-1">
+                <img src="img/cashback.svg" id="cashback" width="100px" height="100px">
+                <div class="description-container">
+                    <h2>100% refund</h2>
+                    <p> We offer 100% refund for unsatisfied customers</p>
+                </div>
+            </div>
+
+            <div class="container-1">
+                <img src="img/workoutplans.svg" width="100px" height="100px">
+                <div class="description-container">
+                    <h2>Personal Workoutplans</h2>
+                    <p>A personal workout plan made by the BEST base on the bodytype and physique you have</p>
+                </div>
+            </div>
+
+            <div class="container-1">
+                <img src="img/dietplans.svg" width="100px" height="100px">
+                <div class="description-container">
+                    <h2>Nutrition Plan</h2>
+                    <p>Strict nutrition planning for fast and accurate results for the body you always wanted</p> 
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div id="nutritional-plan">
+        <h1 class="title-NP">Nutrition Plan</h1>
+        <div class="NP-container">
+                <div class="NP-1"><p>Reducing Weight</p></div>
+                <div class="NP-1"><p>Gaining Weight</p></div>
+                <div class="NP-1"><p>Gaining Muscle Losing Fat</p></div>
+        </div>
+    </div>
+
+    <div id="workout-plan">
+        <h1 class="title-WP">Workout Plan</h1>
+        <div class="WP-container">
+                <div class="WP-1"><p>Ketogenic Diet</p></div>
+                <div class="WP-1"><p>Intermittent Fasting</p></div>
+                <div class="WP-1"><p>Vegan Diet</p></div>
+        </div>
+    </div>
+
+    <footer>
+        <h3 id="credits">Coded by Robert Carlo Tubig</h3>
+    </footer>
+</body>
+</html>

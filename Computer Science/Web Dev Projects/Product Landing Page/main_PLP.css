@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+body{
+    font-family: 'Fira Sans' , serif;
+    margin: 0;
+    background-color: #2F456E;
+}
+
+/* Navigation and Header*/
+
+header{
+    background-color: lightgrey;
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+
+
+#header-image{
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+}
+.company-logo{
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+#nav-bar{
+    
+    margin-left: auto;
+}
+
+.link-container{
+  height:100%;
+  padding:0;
+  margin:0;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  
+
+}
+.nav-link{
+    list-style-type: none; 
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+a{
+    color:#2F456E;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/* Landing Page */
+main{
+    background-image: url('img/landing_page.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:24   0px;
+    padding : 200px;
+   
+}
+
+#form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    flex-direction:column;
+}
+#email{
+    width: 40%;
+    height: 30px
+
+}
+#submit{
+    background-color: cornsilk;
+    color: black;
+    padding: 0px 32px;
+    font-size: 15px;
+    margin-top: 10px;
+    height: 30px;
+    width:20%;
+    border: none;
+}
+
+#email-text{
+    color:	#FCE883;
+}
+
+/*Features*/
+#features{
+    background-color: #F7F7F7;
+    padding-top:1px;
+
+}
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin: 2%;
+    
+}
+
+h2{
+    text-transform: uppercase;
+
+}
+
+.prime-features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.container-1{
+    display: flex;
+    margin-top: 30px; 
+    width:60%;
+}
+
+.description-container{
+    margin-left: 50px;
+}
+/*Nutritional Plan*/
+
+#nutritional-plan{
+   
+    height:450px;
+    background-color:  #F7F7F7;
+    padding-top:1px;
+
+}
+
+.title-NP{
+ 
+    text-align: center;
+}
+.NP-container{
+    
+    display:flex;
+    flex-direction: row;
+    border: 1px solid red;
+    justify-content:space-around;
+    align-items: center;
+}
+.NP-1{
+    width:300px;
+    height:300px;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 0 4px 1px rgba(197,197,197,1);
+}
+
+.NP-1>P{
+    text-align: center;
+}
+/*work*/
+#workout-plan{
+    padding-top:1px;
+    height:450px;
+    background-color:  #F7F7F7;
+}
+
+.title-WP{
+    
+    text-align:center;
+}
+
+.WP-container{
+    
+    display:flex;
+    flex-direction: row;
+    border: 1px solid red;
+    justify-content:space-around;
+    align-items: center;
+}
+.WP-1{
+    width:300px;
+    height:300px;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 0 4px 1px rgba(197,197,197,1);
+}
+
+.WP-1>p{
+    text-align:center;
+}
+
+/*footer*/
+
+footer{
+    padding-top: 1px;
+    width:100%;
+    height:100px;
+    background-color: gray;
+}
+
+#credits{
+    text-align: center;
+    color:white;
+}

@@ -1,0 +1,48 @@
+*{
+    margin:0;
+}
+
+.container{
+    width:100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.flex-container{
+    display:flex;
+    background-color: gray;
+}
+.box{
+    height: 50px;
+    min-width: 90px;
+}
+
+.one{
+    background-color: blue;
+
+}
+
+.two{
+    background-color: red;
+}
+
+.three{
+    background-color: brown;
+
+}
+
+.four{
+    background-color: green;
+}
+.test{
+    background-color: red;
+    padding:10px;
+   
+}
+.inner-div{
+    background-color:gray;
+    padding:10px;
+}
+
+.test div h1{
+    margin-top: 50%;
+}

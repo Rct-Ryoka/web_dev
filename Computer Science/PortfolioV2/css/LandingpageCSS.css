@@ -1,0 +1,193 @@
+  body {
+  margin: 0;
+  padding: 0;
+  font-family:Montserrat;
+  box-sizing: border-box;
+}
+
+/*CLEARFIX*/
+nav:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* start NAVIGATION BAR */
+
+nav{
+  z-index: 100000;
+}
+.container {
+  position:fixed;
+  width: 100%;
+  padding: 20px;
+  margin: 0;
+  background-color:#F5F5F5;
+}
+
+.logo{
+  float: left;
+  margin-left: 40px;
+}
+.logo a {
+  font-weight: bolder;
+  color:black;
+  font-size: 20px;
+}
+.nav-links{
+  float: right;
+  margin-right: 80px;
+}
+.nav-links a {
+  color: black;
+}
+.nav-style::after{
+  content:'';
+  display:block;
+  width:0px;
+  height:2px;
+  background:#353839;
+  transition: width .3s
+}
+
+.nav-style:hover::after{
+  width:100%;
+  transition:width .3s;
+}
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+/* end NAVIGATION BAR*/
+
+/*Start Landing Page*/
+header {
+  background: url(https://images.unsplash.com/photo-1521295105158-fdc2a8225628?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eb9798deb2e23486ef9500b392c142a5&auto=format&fit=crop&w=1510&q=80) no-repeat 0;
+  width: 100%;
+  height: 650px;
+}
+.brandContainer{
+  position: absolute;
+  top:40%;
+  left:30%;
+  border:2px solid white;
+  padding: 20px 10px 20px 10px;
+}
+.brand-name{
+  position: static;
+  color:white;
+  font-size:50px;
+  font-family:'Roboto Mono' , monospace;
+  margin: 0;
+}
+
+.description{
+  margin: 0;
+  position: static;
+  top: 0px;
+  color: white;
+  font-size: 16px;
+}
+
+/*End Landing Page*/
+
+/*Start About Section*/
+
+.about{
+  width: 100%;
+  height: 500px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin:0;
+  background: white;
+}
+.about:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.about h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.about .col-left, .about .col-right{
+  width:50%;
+  float: left;
+  position: relative;
+}
+.about .col-right p {
+  position: relative;
+  top: 100px;
+  left: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100vmin;
+}
+.about .col-left img{
+  z-index: -0;
+  border-radius: 250px;
+  max-width: 40%;
+  position: relative;
+  left:17em;
+  top:2em;
+}
+
+/*End About Section*/
+
+/*Start Projects Section*/
+.Project-con{
+  width: 100%;
+  height: 400px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background:#353839;
+}
+
+.Project-con .Projects{
+  display: inline-flex;
+  height: 300px;
+  width: 30%;
+  padding: 10px;
+  background-color: white;
+  margin-left: 1.3%;
+}
+
+.Project-con h1{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding:0;
+
+}
+
+
+/*Something*/
+.Something{
+  width: 100%;
+  height: 400px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background:white;
+}
+
+/*Start Contact Me*/
+footer{
+    width: 100%;
+    height: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background:#353839;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+  }
+.ContactMe:after{
+    content: '';
+    display: block;
+    clear: both;
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+

@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+#title , #description {
+   text-align: center;
+}
+
+form{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div > label{
+    margin-right: 20px;
+}
+
+div{
+    border:  1px solid blue;
+    
+}
+
+.container{
+    display: flex;  
+    border: 5px solid black;
+    flex-direction: column;
+
+}
+
+.form-row{
+    display: flex;
+}
+
+.form-row > input {
+    flex: 1;
+    margin :  10px;
+}
+.form-row > label {
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+div > input {
+    align-items: flex-end;
+}
+/** Try to specify the tags only in the css instead of using > > > use the specifc tags

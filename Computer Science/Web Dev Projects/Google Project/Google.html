@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+
+      /*NAVIGATION*/
+        .nav-bar{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end
+          
+        }
+
+        nav ul {
+            padding: 0;
+            display: flex;
+            margin-right: 30px;
+        }
+        li{
+
+            list-style-type: none;
+            margin-left:20px; 
+            
+        }
+
+        li a {
+            text-decoration: none;
+            text-align: center;
+            display: block; 
+            color: black;
+            opacity:0.75;
+            
+            
+        }
+
+        a:hover{
+            text-decoration: underline;  
+        }
+    
+        .app-btn{
+            height: 20px;
+            width: 20px;
+        }
+        
+        .sign-in{
+            margin-top:-5px; 
+            padding: 6px 10px;
+            background-color: #4285f4;
+            color: white;
+            font-weight: bold;
+            border: 1px solid rgb(58, 123, 221);
+            border-radius: 2px;
+        }
+        /*Google Logo*/
+        .googlelogo-container{
+            display: block;
+            text-align: -webkit-center;
+        }
+        .google-logo{
+            padding-top: 120px;
+            height: 92px;
+            width: 272px;
+        }
+
+        /*User Interaction*/
+        .search-bar{
+            width: 39%;
+            height: 46px;       
+            color: #222;
+            border: 1px solid #e1e1e1;
+            border-bottom: 1px solid #c7c7c6;
+            box-shadow: 0px 2px 5px #e2e2e2;
+        }
+        .searchbar-container{   
+            margin-top: 20px;           
+        }
+
+        .UI-container{
+            display: block;
+            text-align: -webkit-center;
+        }
+        div button{
+            margin-top: 20px;
+            margin-left:10px;
+            border: 0 ;
+            padding: 12px;
+            font-weight: bold;
+            color:rgba(0,0,0,.54);
+        }
+        /*Footer*/
+
+        footer{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            color: rgba(34,34,34,.75);
+            background: #f2f2f2;
+            border-top: 1px solid #e4e4e4;
+            padding-left: 10px;
+        }
+        .location-footer{
+            display: flex;
+            border-bottom: 1px solid #e4e4e4; 
+        }
+        .location {
+            line-height: 45px;
+            padding-left: 10px;
+            
+        }
+        .footer-links {
+            display: flex;
+            line-height: 45px;
+        }
+
+        .footer-links a {
+            padding-left: 10px;
+            margin-right:15px;
+            text-decoration: none;
+            color: rgba(34,34,34,.75);
+        }
+
+        .footer-links a:hover{
+            text-decoration: underline;
+        }
+        .right-footer{
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <UL>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images<a></li>
+            <li><a href="#"><img class="app-btn" src="show-apps-button_icon-icons.com_72551.png" alt="google app button"></a></li>
+            <li><a><button class="sign-in">Sign In</button></a>
+        </UL>
+    </nav>
+
+    <div class="googlelogo-container">
+        <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+    </div>
+
+    <form class="UI-container">
+        <div class="searchbar-container">
+            <input class="search-bar" type="text">
+        </div>
+        <div class="googlebtn-container">
+            <button class="btn1">Google Search</button>
+            <button class="btn2">Im Feeling Lucky</button>   
+        </div>
+    </form>
+
+    <footer>
+        <div class="location-footer">
+            <span class="location">Japan</span>
+        </div>
+        <div class="footer-links">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">About</a>
+                <a class="right-footer" href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

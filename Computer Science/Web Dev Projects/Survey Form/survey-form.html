@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Sf_css.css" >
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat"rel="stylesheet" type="text/css">
+    <script src="main.js"></script>
+</head>
+<body>
+        <h1 id="title">A little Survey</h1>
+        <p id="description">Short survey for the future of my Youtube Channel</p>
+        <form id="survey-form">
+            <ul class="flex-outer">
+                <li>
+                    <label for="name" id="name-label">Enter Name</label>
+                    <input autofocus type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                </li>
+    
+                <li>
+                    <label for="email" id="email-label">Enter Email</label>
+                    <input type="email" name="email" placeholder="Enter Email Address" id="email" required>
+                </li>
+    
+                <li>
+                    <label for="Age" id="number-label">Age</label>
+                    <input type="number" name="Age" placeholder="age" min="1" max="100" id="number">
+                </li>
+    
+                <li> 
+                    <label for="videos-found">Where did you find most of my Videos ?</label>
+                    <select name="videos-found" id="dropdown">
+                            <option disabled value> Select an option</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Word of mouth">Word of mouth</option>
+                            <option value="Twitter">Twitter</option>
+                            <option value="Youtube">Youtube</option>
+                    </select>
+    
+                <li>
+                    <p>Will you Subscribe for my future Videos?</p> 
+                    <ul id="inner-list">
+                            <li><label><input name="radio-buttons" value="1" type="radio">Definitely</label></li>
+                            <li><label><input name="radio-buttons" value="2" type="radio">Maybe</label></li>
+                            <li><label><input name="radio-buttons" value="3" type="radio">Not Sure</label></li>
+                    </ul>
+                  
+                <li>
+                  <p>What kind of Video you want me to upload next ?<p>
+                  <ul>
+                    <li><label><input name="checkbox" value="1" type="checkbox">Gaming</label></li>
+                    <li><label><input name="checkbox" value="2" type="checkbox">Vlogs</label></li>
+                    <li><label><input name="checkbox" value="3" type="checkbox">Commentary</label></li>
+                  </ul>
+                </li>
+
+                <li>
+                    <label for="message">Other Comments</label>
+                    <textarea rows="6" id="message" placeholder="enter your comments here"></textarea>
+                </li>
+
+                <li>
+                    <button type="submit" id="submit">Submit</button>
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>

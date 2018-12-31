@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="layout.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 id="title"  >Short Survey Form</h1>
+    <p id="description">A short survey for my portfolio</p>
+    <form id="survey-form">
+        <div class="container">
+            <div class="form-row">
+                <label for="name" id="name-label">Enter Name</label>
+                <input type="text" id="name" placeholder="Enter Name" required>
+            </div>
+            <div class="form-row">
+                <label for="email" id="email-label">Enter Email</label>
+                <input type="email" id="email" placeholder="Enter Email" required>
+            </div>
+            <div class="form-row">
+                <label for="number" id="number-label">Enter Age</label>
+                <input type="number" id="number" placeholder="Enter Age" name="age" min="1" max="100">
+            </div>
+            <div class="form-row">
+                <label for="dropdown-label">Please rate my website</label>
+                <select id="dropdown">
+                    <option disabled value="Select Rating">Select Rating</option>
+                    <option value="Excellent">Excellent</option>
+                    <option value="Very Good">Very Good</option>
+                    <option value="Good">Good</option>
+                    <option value="Needs More Work">Needs More work</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="radiobutton-lbl">Something Lorem Ipsum</label>
+                <div class="radiobtn-container">
+                    <label><input class="btnsClass" name="radio-buttons" value="1" type="radio">Lorem Ipsum</label>
+                    <label><input class="btnsClass" name="radio-buttons" value="2"type="radio">Ipsum Lorem</label>
+                    <label><input class="btnsClass" name="radio-buttons" value="3"type="radio">Ipsum Ipsum</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <label for="checkbox-lbl">Where did you find my website</label>
+                <div class="radiobtn-container">
+                    <label><input class="btnsClass" name="radio-buttons" value="1" type="checkbox">Facebook</label>
+                    <label><input class="btnsClass" name="radio-buttons" value="2" type="checkbox">Github</label>
+                    <label><input class="btnsClass" name="radio-buttons" value="3" type="checkbox">Reddit</label>
+                </div>
+            </div>
+        </div> 
+    </form>
+</body> 
+</html> 
